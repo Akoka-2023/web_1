@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>How will you design me?</h1>
+    <div class="main-div">
+        <div class="green"></div>
+        <div class="grid">
+            <div>Work hard</div>
+            <div>Plan your time well</div>
+            <div>Study like you need that to survive</div>
+            <div>Take breaks in between</div>
+            <div>Get enough rest</div>
+            <div>Eat well</div>
+            <div>Exercise regularly</div>
+            <div>Be kind</div>
+            <div>Pray</div>
+            <div>Believe</div>
+            <div>Trust God</div>
+            <div>Because He is God</div>
+        </div>
+        <div class="red"></div>
+    </div>
+</body>
+<style>
+    
+
+    h1{
+        text-align: center;
+        color: rgb(87, 87, 148);
+    }
+
+    .main-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px
+    }
+
+    .green,.red{
+        max-width: 50%;
+        width: 600px;
+        height: 10px;
+        border-radius: 5px;
+        
+    }
+
+    .red{
+        background-color: rgb(219, 19, 19);
+    }
+
+    .green{
+        background-color: rgb(65, 205, 65);
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 30px;
+        background-color: rgb(165, 165, 199);
+        padding: 5px;
+    }
+
+    .grid div{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+
+</style>
+</html>

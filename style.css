@@ -1,0 +1,44 @@
+
+
+    h1{
+        text-align: center;
+        color: rgb(87, 87, 148);
+    }
+
+    .main-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px
+    }
+
+    .green,.red{
+        max-width: 50%;
+        width: 600px;
+        height: 10px;
+        border-radius: 5px;
+        
+    }
+
+    .red{
+        background-color: rgb(219, 19, 19);
+    }
+
+    .green{
+        background-color: rgb(65, 205, 65);
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 30px;
+        background-color: rgb(165, 165, 199);
+        padding: 5px;
+    }
+
+    .grid div{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
